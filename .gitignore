@@ -1,0 +1,53 @@
+# ── 第三方依赖（不入库，README 说明下载方式） ──
+/lvgl/
+/freetype-2.13.3/
+/server/lvgl/
+/server/freetype-2.13.3/
+/server/lib/
+
+# ── 构建产物 ──
+/build/
+/bin/
+**/bin/
+/server/build/
+/*.o
+*.o
+*.a
+*.so
+*.exe
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+CPackConfig.cmake
+CPackSourceConfig.cmake
+Makefile.qtc
+
+# ── 运行时数据（users.conf 示例版提交，部署时自行修改） ──
+/server/remote_share/
+/client/load/
+/load/
+/copy/
+**/copy/
+/xiaohe.git/
+
+# ── 内部工作文档 ──
+docs/superpowers/
+
+# ── 个人笔记 / 测试文件 ──
+changeway.txt
+client_use.txt
+usetest.txt
+STLITI.TTF
+
+# ── IDE / 工具目录 ──
+.claude/
+.superpowers/
+.trae/
+.uploads/
+.workbuddy/
+.zcode/
+.vscode/
+.idea/
+*.user
+Thumbs.db
+.DS_Store
